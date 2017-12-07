@@ -186,3 +186,58 @@ SELECT * FROM EXPANSION;
 #INSERT INTO EXPANSION VALUES ("psna5c2", "Persona 4 BGM Costume Set", "psna5"); 
 #INSERT INTO EXPANSION VALUES ("psna5c3", "Christmas Costume Set", "psna5"); 
 
+
+INSERT INTO PERSON VALUES ("drdc", "David", "Cage");
+INSERT INTO PERSON VALUES ("wrdc","David", "Cage");
+INSERT INTO PERSON VALUES ("procc", "Charles", "Coutier");
+INSERT INTO PERSON VALUES ("cmpnc", "Normand", "Corbeil");
+
+INSERT INTO PERSON VALUES ("prolb", "Leslie", "Benzies");
+INSERT INTO PERSON VALUES ("prois", "Imran", "Sarwar");
+INSERT INTO PERSON VALUES ("dlb", "Leslie", "Benzies");
+INSERT INTO PERSON VALUES ("progaf", "Adam", "Fowler");
+INSERT INTO PERSON VALUES ("artag", "Aron", "Garbut");
+INSERT INTO PERSON VALUES ("wrrh", "Rupert", "Humphries");
+
+INSERT INTO PERSON VALUES ("dgl", "Greg", "LoPiccolo");
+INSERT INTO PERSON VALUES ("desrk", "Robert", "Kay");
+INSERT INTO PERSON VALUES ("artrl", "Ryan", "Lesser");
+
+INSERT INTO PERSON VALUES ("pdir", "Katsura", "Hashino");
+INSERT INTO PERSON VALUES ("pdes", "Naoya", "Maeda");
+INSERT INTO PERSON VALUES ("ppro", "Yujiro", "Kosaka");
+INSERT INTO PERSON VALUES ("part", "Masayoshi", "Suto");
+INSERT INTO PERSON VALUES ("pwr", "Shinji", "Yamamoto");
+
+
+INSERT INTO POSITION VALUES ("pnad", "pdir", "atlus", "Director");
+INSERT INTO POSITION VALUES ("pnade", "pdes", "atlus", "Designer");
+INSERT INTO POSITION VALUES ("pnapr", "ppro", "atlus", "Programmer");
+INSERT INTO POSITION VALUES ("pnaar", "part", "atlus", "Artist");
+INSERT INTO POSITION VALUES ("pnawr", "pwr", "atlus", "Writer");
+
+
+
+
+INSERT INTO POSITION VALUES ("ghd", "dgl", "hmx", "Director");
+INSERT INTO POSITION VALUES ("ghdes", "desrk", "hmx", "Designer");
+INSERT INTO POSITION VALUES ("ghart", "artrl", "hmx", "Artist");
+
+
+
+
+INSERT INTO POSITION VALUES ("hrd", "drdc", "quand", "Director");
+INSERT INTO POSITION VALUES ("hrc", "wrdc", "quand", "Writer");
+INSERT INTO POSITION VALUES ("hrp", "procc", "quand", "Producer");
+INSERT INTO POSITION VALUES ("hrcm", "smpnc", "quand", "Composer");
+
+
+
+INSERT INTO POSITION VALUES ("gta5p", "prolb", "rstr", "Producer");
+INSERT INTO POSITION VALUES ("gta5p2", "prois", "rstr", "Producer");
+INSERT INTO POSITION VALUES ("gta5d", "dlb", "rstr", "Director");
+INSERT INTO POSITION VALUES ("gta5p", "progaf", "rstr", "Programmer");
+INSERT INTO POSITION VALUES ("gta5a", "artag", "rstr", "Programmer");
+INSERT INTO POSITION VALUES ("gta5w", "wrrh", "rstr", "Programmer");
+
+
